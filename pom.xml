@@ -90,19 +90,19 @@
 	</build>
 
 	<scm>
-        <connection>scm:git:https://github.com/shafreenAnfar/synapse.git</connection>
-        <developerConnection>scm:git:https://github.com/shafreenAnfar/synapse.git</developerConnection>
-        <url>https://github.com/shafreenAnfar/synapse.git/</url>
+        <connection>scm:git:https://github.com/shafreenAnfar/springboot-sentiment-api.git</connection>
+        <developerConnection>scm:git:https://github.com/shafreenAnfar/springboot-sentiment-api.git</developerConnection>
+        <url>https://github.com/shafreenAnfar/springboot-sentiment-api.git</url>
     </scm>
 
 	<distributionManagement>
 		<repository>
 			<id>nexus-releases</id>
-			<url>http://localhost:8081/nexus/content/repositories/releases</url>
+			<url>http://localhost:8081/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
-			<url>http://localhost:8081/repository/maven-snapshots/</url>
+			<url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
